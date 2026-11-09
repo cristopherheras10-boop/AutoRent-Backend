@@ -1,0 +1,7 @@
+package com.autorent.api.exception;
+
+public class AutenticacionException extends RuntimeException {
+    public AutenticacionException(String m) {
+        super(m);
+    }
+}

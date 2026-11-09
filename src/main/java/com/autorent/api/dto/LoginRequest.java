@@ -1,0 +1,9 @@
+package com.autorent.api.dto;
+
+import jakarta.validation.constraints.*;
+
+public record LoginRequest(
+        @NotBlank @Email String correo,
+        @NotBlank String password
+) {
+}
